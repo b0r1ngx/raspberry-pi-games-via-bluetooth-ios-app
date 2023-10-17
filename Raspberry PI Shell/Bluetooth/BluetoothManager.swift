@@ -2,7 +2,9 @@ import CoreBluetooth
 import Combine
 import Foundation
 
-class BluetoothManager: NSObject {
+class BluetoothManager: NSObject, CBPeripheralDelegate {
+    static let shared = BluetoothManager()
+    
     private var centralManager: CBCentralManager!
         
     var stateSubject: PassthroughSubject<CBManagerState, Never> = .init()
@@ -10,6 +12,10 @@ class BluetoothManager: NSObject {
     
     func start() {
         centralManager = .init(delegate: self, queue: .main)
+    }
+    
+    func scan() {
+        centralManager.scanForPeripherals(withServices: nil)
     }
     
     func connect(_ peripheral: CBPeripheral) {
@@ -37,5 +43,15 @@ extension BluetoothManager: CBCentralManagerDelegate {
         @unknown default:
             print("central.state is \(central.state)")
         }
+        stateSubject.send(central.state)
+    }
+        
+    func centralManager(
+        _ central: CBCentralManager,
+        didDiscover peripheral: CBPeripheral,
+        advertisementData: [String : Any],
+        rssi RSSI: NSNumber
+    ) {
+        peripheralSubject.send(peripheral)
     }
 }

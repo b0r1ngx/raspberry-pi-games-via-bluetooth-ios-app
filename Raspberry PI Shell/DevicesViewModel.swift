@@ -4,25 +4,45 @@ import Combine
 
 class DevicesViewModel: ObservableObject {
     @Published var state: CBManagerState = .unknown
-    @Published var peripherals: [CBPeripheral] = []
+    @Published var devices: [CBPeripheral] = []
+    @Published var connectedTo: CBPeripheral?
     
     private lazy var manager: BluetoothManager = .shared
     private lazy var cancellables: Set<AnyCancellable> = .init()
     
+    let translation = decode(file: "translations.json")
+    
     deinit {
-        cancellables.cancel()
+        cancellables.removeAll()
     }
     
     func start() {
         manager.stateSubject
             .sink { [weak self] state in
                 self?.state = state
+                if state == .poweredOn {
+                    self?.manager.scan()
+                }
             }
             .store(in: &cancellables)
+        
         manager.peripheralSubject
-            .filter { [weak self] in self?.peripherals.contains($0) == false }
-            .sink { [weak self] in self?.peripherals.append($0) }
+            .filter { [weak self] in
+                self?.devices.contains($0) == false
+            }
+            .sink { [weak self] in
+                print($0)
+                self?.devices.append($0)
+            }
             .store(in: &cancellables)
+        
         manager.start()
+    }
+    
+    func connect(device: CBPeripheral) {
+        manager.connect(device)
+        if device.state == .connected {
+            connectedTo = device
+        }
     }
 }

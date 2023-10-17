@@ -1,18 +1,37 @@
-//
-//  Translation.swift
-//  Raspberry PI Shell
-//
-//  Created by Кирилл Иванов on 17.10.2023.
-//
-
 import SwiftUI
 
 struct Translation: View {
+    var translation: Array<TranslationData>
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Translation"~)
+                .fontWeight(.bold)
+            let _ = print(translation)
+            List(translation, id: \.code) { translation in
+                
+                let _ = print(translation)
+                HStack {
+                    Text(translation.code)
+                        .font(.system(
+                            size: 32,
+                            weight: .bold
+                        ))
+                    Spacer()
+                    Text(translation.name)
+                    Spacer()
+                    Letters(
+                        letters: translation.sequence
+                    )
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    Translation()
+    Translation(
+        translation:
+            TranslationDataMock
+    )
 }

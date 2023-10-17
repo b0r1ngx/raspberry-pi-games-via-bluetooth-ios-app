@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		99FFB2822ADEEA2100EFDAC3 /* Raspberry_PI_ShellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2812ADEEA2100EFDAC3 /* Raspberry_PI_ShellApp.swift */; };
-		99FFB2842ADEEA2100EFDAC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2832ADEEA2100EFDAC3 /* ContentView.swift */; };
 		99FFB2862ADEEA2200EFDAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FFB2852ADEEA2200EFDAC3 /* Assets.xcassets */; };
 		99FFB2892ADEEA2200EFDAC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FFB2882ADEEA2200EFDAC3 /* Preview Assets.xcassets */; };
 		99FFB2932ADEEA2200EFDAC3 /* Raspberry_PI_ShellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2922ADEEA2200EFDAC3 /* Raspberry_PI_ShellTests.swift */; };
 		99FFB29D2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB29C2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITests.swift */; };
 		99FFB29F2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB29E2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITestsLaunchTests.swift */; };
+		99FFB2AD2ADEF95700EFDAC3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2AC2ADEF95700EFDAC3 /* Colors.swift */; };
+		99FFB2B02ADEFA5300EFDAC3 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2AF2ADEFA5300EFDAC3 /* Splash.swift */; };
+		99FFB2B32ADEFA6700EFDAC3 /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2B22ADEFA6700EFDAC3 /* Games.swift */; };
+		99FFB2B52ADEFA6E00EFDAC3 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2B42ADEFA6E00EFDAC3 /* Devices.swift */; };
+		99FFB2B72ADEFA8600EFDAC3 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2B62ADEFA8600EFDAC3 /* Translation.swift */; };
+		99FFB2BA2ADEFA9D00EFDAC3 /* BottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2B92ADEFA9D00EFDAC3 /* BottomTabBar.swift */; };
+		99FFB2BC2ADEFBC100EFDAC3 /* LocalizationSmartCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2BB2ADEFBC100EFDAC3 /* LocalizationSmartCast.swift */; };
+		99FFB2C02ADF036000EFDAC3 /* DevicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2BF2ADF036000EFDAC3 /* DevicesViewModel.swift */; };
+		99FFB2C32ADF066B00EFDAC3 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2C22ADF066B00EFDAC3 /* BluetoothManager.swift */; };
+		99FFB2C92ADF196D00EFDAC3 /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 99FFB2C72ADF196D00EFDAC3 /* words.json */; };
+		99FFB2CA2ADF196D00EFDAC3 /* translations.json in Resources */ = {isa = PBXBuildFile; fileRef = 99FFB2C82ADF196D00EFDAC3 /* translations.json */; };
+		99FFB2CC2ADF19B500EFDAC3 /* TranslationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2CB2ADF19B500EFDAC3 /* TranslationData.swift */; };
+		99FFB2CE2ADF1C3400EFDAC3 /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2CD2ADF1C3400EFDAC3 /* Decode.swift */; };
+		99FFB2D02ADF1F8300EFDAC3 /* Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2CF2ADF1F8300EFDAC3 /* Letters.swift */; };
+		99FFB2D22ADF24C900EFDAC3 /* WordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2D12ADF24C900EFDAC3 /* WordData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		99FFB27E2ADEEA2100EFDAC3 /* Raspberry PI Shell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raspberry PI Shell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FFB2812ADEEA2100EFDAC3 /* Raspberry_PI_ShellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_PI_ShellApp.swift; sourceTree = "<group>"; };
-		99FFB2832ADEEA2100EFDAC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99FFB2852ADEEA2200EFDAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99FFB2882ADEEA2200EFDAC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99FFB28E2ADEEA2200EFDAC3 /* Raspberry PI ShellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raspberry PI ShellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,21 @@
 		99FFB2982ADEEA2200EFDAC3 /* Raspberry PI ShellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raspberry PI ShellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FFB29C2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_PI_ShellUITests.swift; sourceTree = "<group>"; };
 		99FFB29E2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_PI_ShellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99FFB2AC2ADEF95700EFDAC3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		99FFB2AF2ADEFA5300EFDAC3 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		99FFB2B22ADEFA6700EFDAC3 /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		99FFB2B42ADEFA6E00EFDAC3 /* Devices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
+		99FFB2B62ADEFA8600EFDAC3 /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
+		99FFB2B92ADEFA9D00EFDAC3 /* BottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBar.swift; sourceTree = "<group>"; };
+		99FFB2BB2ADEFBC100EFDAC3 /* LocalizationSmartCast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationSmartCast.swift; sourceTree = "<group>"; };
+		99FFB2BF2ADF036000EFDAC3 /* DevicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewModel.swift; sourceTree = "<group>"; };
+		99FFB2C22ADF066B00EFDAC3 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		99FFB2C72ADF196D00EFDAC3 /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
+		99FFB2C82ADF196D00EFDAC3 /* translations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = translations.json; sourceTree = "<group>"; };
+		99FFB2CB2ADF19B500EFDAC3 /* TranslationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationData.swift; sourceTree = "<group>"; };
+		99FFB2CD2ADF1C3400EFDAC3 /* Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decode.swift; sourceTree = "<group>"; };
+		99FFB2CF2ADF1F8300EFDAC3 /* Letters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letters.swift; sourceTree = "<group>"; };
+		99FFB2D12ADF24C900EFDAC3 /* WordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +122,16 @@
 		99FFB2802ADEEA2100EFDAC3 /* Raspberry PI Shell */ = {
 			isa = PBXGroup;
 			children = (
+				99FFB2C42ADF188900EFDAC3 /* Data */,
+				99FFB2C12ADF064A00EFDAC3 /* Bluetooth */,
+				99FFB2BD2ADEFBC500EFDAC3 /* Utils */,
+				99FFB2B82ADEFA9100EFDAC3 /* Components */,
+				99FFB2AE2ADEFA4400EFDAC3 /* Screens */,
+				99FFB2AB2ADEF94700EFDAC3 /* Styles */,
 				99FFB2812ADEEA2100EFDAC3 /* Raspberry_PI_ShellApp.swift */,
-				99FFB2832ADEEA2100EFDAC3 /* ContentView.swift */,
 				99FFB2852ADEEA2200EFDAC3 /* Assets.xcassets */,
 				99FFB2872ADEEA2200EFDAC3 /* Preview Content */,
+				99FFB2BF2ADF036000EFDAC3 /* DevicesViewModel.swift */,
 			);
 			path = "Raspberry PI Shell";
 			sourceTree = "<group>";
@@ -125,6 +159,62 @@
 				99FFB29E2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITestsLaunchTests.swift */,
 			);
 			path = "Raspberry PI ShellUITests";
+			sourceTree = "<group>";
+		};
+		99FFB2AB2ADEF94700EFDAC3 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB2AC2ADEF95700EFDAC3 /* Colors.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		99FFB2AE2ADEFA4400EFDAC3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB2AF2ADEFA5300EFDAC3 /* Splash.swift */,
+				99FFB2B22ADEFA6700EFDAC3 /* Games.swift */,
+				99FFB2B42ADEFA6E00EFDAC3 /* Devices.swift */,
+				99FFB2B62ADEFA8600EFDAC3 /* Translation.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		99FFB2B82ADEFA9100EFDAC3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB2B92ADEFA9D00EFDAC3 /* BottomTabBar.swift */,
+				99FFB2CF2ADF1F8300EFDAC3 /* Letters.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		99FFB2BD2ADEFBC500EFDAC3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB2BB2ADEFBC100EFDAC3 /* LocalizationSmartCast.swift */,
+				99FFB2CD2ADF1C3400EFDAC3 /* Decode.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		99FFB2C12ADF064A00EFDAC3 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB2C22ADF066B00EFDAC3 /* BluetoothManager.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		99FFB2C42ADF188900EFDAC3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB2C82ADF196D00EFDAC3 /* translations.json */,
+				99FFB2C72ADF196D00EFDAC3 /* words.json */,
+				99FFB2CB2ADF19B500EFDAC3 /* TranslationData.swift */,
+				99FFB2D12ADF24C900EFDAC3 /* WordData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +321,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FFB2C92ADF196D00EFDAC3 /* words.json in Resources */,
 				99FFB2892ADEEA2200EFDAC3 /* Preview Assets.xcassets in Resources */,
 				99FFB2862ADEEA2200EFDAC3 /* Assets.xcassets in Resources */,
+				99FFB2CA2ADF196D00EFDAC3 /* translations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +349,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99FFB2842ADEEA2100EFDAC3 /* ContentView.swift in Sources */,
+				99FFB2AD2ADEF95700EFDAC3 /* Colors.swift in Sources */,
+				99FFB2CE2ADF1C3400EFDAC3 /* Decode.swift in Sources */,
+				99FFB2C02ADF036000EFDAC3 /* DevicesViewModel.swift in Sources */,
+				99FFB2B02ADEFA5300EFDAC3 /* Splash.swift in Sources */,
+				99FFB2CC2ADF19B500EFDAC3 /* TranslationData.swift in Sources */,
+				99FFB2B32ADEFA6700EFDAC3 /* Games.swift in Sources */,
+				99FFB2D02ADF1F8300EFDAC3 /* Letters.swift in Sources */,
+				99FFB2D22ADF24C900EFDAC3 /* WordData.swift in Sources */,
+				99FFB2B72ADEFA8600EFDAC3 /* Translation.swift in Sources */,
 				99FFB2822ADEEA2100EFDAC3 /* Raspberry_PI_ShellApp.swift in Sources */,
+				99FFB2BA2ADEFA9D00EFDAC3 /* BottomTabBar.swift in Sources */,
+				99FFB2C32ADF066B00EFDAC3 /* BluetoothManager.swift in Sources */,
+				99FFB2B52ADEFA6E00EFDAC3 /* Devices.swift in Sources */,
+				99FFB2BC2ADEFBC100EFDAC3 /* LocalizationSmartCast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

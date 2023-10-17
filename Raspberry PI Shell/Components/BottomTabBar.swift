@@ -1,15 +1,28 @@
-//
-//  BottomTabBar.swift
-//  Raspberry PI Shell
-//
-//  Created by Кирилл Иванов on 17.10.2023.
-//
-
 import SwiftUI
 
 struct BottomTabBar: View {
+    @StateObject private var viewModel = DevicesViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        let _ = print("Hello")
+        TabView {
+            Games()
+                .tabItem {
+                    Image(systemName: "gamecontroller")
+                    Text("Games"~)
+                }
+            Devices(viewModel: viewModel)
+                .tabItem {
+                    Image("bluetooth")
+                    Text("Devices"~)
+                }
+            Translation(
+                translation: viewModel.translation
+            ).tabItem {
+                Image("translate")
+                Text("Translation"~)
+            }
+        }.accentColor(Green)
     }
 }
 
