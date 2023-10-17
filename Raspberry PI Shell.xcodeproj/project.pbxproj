@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99FFB2822ADEEA2100EFDAC3 /* Raspberry_PI_ShellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2812ADEEA2100EFDAC3 /* Raspberry_PI_ShellApp.swift */; };
+		99FFB2842ADEEA2100EFDAC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2832ADEEA2100EFDAC3 /* ContentView.swift */; };
+		99FFB2862ADEEA2200EFDAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FFB2852ADEEA2200EFDAC3 /* Assets.xcassets */; };
+		99FFB2892ADEEA2200EFDAC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FFB2882ADEEA2200EFDAC3 /* Preview Assets.xcassets */; };
+		99FFB2932ADEEA2200EFDAC3 /* Raspberry_PI_ShellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB2922ADEEA2200EFDAC3 /* Raspberry_PI_ShellTests.swift */; };
+		99FFB29D2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB29C2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITests.swift */; };
+		99FFB29F2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB29E2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99FFB28F2ADEEA2200EFDAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99FFB2762ADEEA2100EFDAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99FFB27D2ADEEA2100EFDAC3;
+			remoteInfo = "Raspberry PI Shell";
+		};
+		99FFB2992ADEEA2200EFDAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99FFB2762ADEEA2100EFDAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99FFB27D2ADEEA2100EFDAC3;
+			remoteInfo = "Raspberry PI Shell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99FFB27E2ADEEA2100EFDAC3 /* Raspberry PI Shell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raspberry PI Shell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FFB2812ADEEA2100EFDAC3 /* Raspberry_PI_ShellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_PI_ShellApp.swift; sourceTree = "<group>"; };
+		99FFB2832ADEEA2100EFDAC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99FFB2852ADEEA2200EFDAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99FFB2882ADEEA2200EFDAC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99FFB28E2ADEEA2200EFDAC3 /* Raspberry PI ShellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raspberry PI ShellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FFB2922ADEEA2200EFDAC3 /* Raspberry_PI_ShellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_PI_ShellTests.swift; sourceTree = "<group>"; };
+		99FFB2982ADEEA2200EFDAC3 /* Raspberry PI ShellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raspberry PI ShellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FFB29C2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_PI_ShellUITests.swift; sourceTree = "<group>"; };
+		99FFB29E2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raspberry_PI_ShellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99FFB27B2ADEEA2100EFDAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FFB28B2ADEEA2200EFDAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FFB2952ADEEA2200EFDAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99FFB2752ADEEA2100EFDAC3 = {
+			isa = PBXGroup;
+			children = (
+				99FFB2802ADEEA2100EFDAC3 /* Raspberry PI Shell */,
+				99FFB2912ADEEA2200EFDAC3 /* Raspberry PI ShellTests */,
+				99FFB29B2ADEEA2200EFDAC3 /* Raspberry PI ShellUITests */,
+				99FFB27F2ADEEA2100EFDAC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99FFB27F2ADEEA2100EFDAC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB27E2ADEEA2100EFDAC3 /* Raspberry PI Shell.app */,
+				99FFB28E2ADEEA2200EFDAC3 /* Raspberry PI ShellTests.xctest */,
+				99FFB2982ADEEA2200EFDAC3 /* Raspberry PI ShellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99FFB2802ADEEA2100EFDAC3 /* Raspberry PI Shell */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB2812ADEEA2100EFDAC3 /* Raspberry_PI_ShellApp.swift */,
+				99FFB2832ADEEA2100EFDAC3 /* ContentView.swift */,
+				99FFB2852ADEEA2200EFDAC3 /* Assets.xcassets */,
+				99FFB2872ADEEA2200EFDAC3 /* Preview Content */,
+			);
+			path = "Raspberry PI Shell";
+			sourceTree = "<group>";
+		};
+		99FFB2872ADEEA2200EFDAC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB2882ADEEA2200EFDAC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99FFB2912ADEEA2200EFDAC3 /* Raspberry PI ShellTests */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB2922ADEEA2200EFDAC3 /* Raspberry_PI_ShellTests.swift */,
+			);
+			path = "Raspberry PI ShellTests";
+			sourceTree = "<group>";
+		};
+		99FFB29B2ADEEA2200EFDAC3 /* Raspberry PI ShellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB29C2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITests.swift */,
+				99FFB29E2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITestsLaunchTests.swift */,
+			);
+			path = "Raspberry PI ShellUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99FFB27D2ADEEA2100EFDAC3 /* Raspberry PI Shell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FFB2A22ADEEA2200EFDAC3 /* Build configuration list for PBXNativeTarget "Raspberry PI Shell" */;
+			buildPhases = (
+				99FFB27A2ADEEA2100EFDAC3 /* Sources */,
+				99FFB27B2ADEEA2100EFDAC3 /* Frameworks */,
+				99FFB27C2ADEEA2100EFDAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Raspberry PI Shell";
+			productName = "Raspberry PI Shell";
+			productReference = 99FFB27E2ADEEA2100EFDAC3 /* Raspberry PI Shell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99FFB28D2ADEEA2200EFDAC3 /* Raspberry PI ShellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FFB2A52ADEEA2200EFDAC3 /* Build configuration list for PBXNativeTarget "Raspberry PI ShellTests" */;
+			buildPhases = (
+				99FFB28A2ADEEA2200EFDAC3 /* Sources */,
+				99FFB28B2ADEEA2200EFDAC3 /* Frameworks */,
+				99FFB28C2ADEEA2200EFDAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99FFB2902ADEEA2200EFDAC3 /* PBXTargetDependency */,
+			);
+			name = "Raspberry PI ShellTests";
+			productName = "Raspberry PI ShellTests";
+			productReference = 99FFB28E2ADEEA2200EFDAC3 /* Raspberry PI ShellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99FFB2972ADEEA2200EFDAC3 /* Raspberry PI ShellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99FFB2A82ADEEA2200EFDAC3 /* Build configuration list for PBXNativeTarget "Raspberry PI ShellUITests" */;
+			buildPhases = (
+				99FFB2942ADEEA2200EFDAC3 /* Sources */,
+				99FFB2952ADEEA2200EFDAC3 /* Frameworks */,
+				99FFB2962ADEEA2200EFDAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99FFB29A2ADEEA2200EFDAC3 /* PBXTargetDependency */,
+			);
+			name = "Raspberry PI ShellUITests";
+			productName = "Raspberry PI ShellUITests";
+			productReference = 99FFB2982ADEEA2200EFDAC3 /* Raspberry PI ShellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99FFB2762ADEEA2100EFDAC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					99FFB27D2ADEEA2100EFDAC3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					99FFB28D2ADEEA2200EFDAC3 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 99FFB27D2ADEEA2100EFDAC3;
+					};
+					99FFB2972ADEEA2200EFDAC3 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 99FFB27D2ADEEA2100EFDAC3;
+					};
+				};
+			};
+			buildConfigurationList = 99FFB2792ADEEA2100EFDAC3 /* Build configuration list for PBXProject "Raspberry PI Shell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99FFB2752ADEEA2100EFDAC3;
+			productRefGroup = 99FFB27F2ADEEA2100EFDAC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99FFB27D2ADEEA2100EFDAC3 /* Raspberry PI Shell */,
+				99FFB28D2ADEEA2200EFDAC3 /* Raspberry PI ShellTests */,
+				99FFB2972ADEEA2200EFDAC3 /* Raspberry PI ShellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99FFB27C2ADEEA2100EFDAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FFB2892ADEEA2200EFDAC3 /* Preview Assets.xcassets in Resources */,
+				99FFB2862ADEEA2200EFDAC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FFB28C2ADEEA2200EFDAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FFB2962ADEEA2200EFDAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99FFB27A2ADEEA2100EFDAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FFB2842ADEEA2100EFDAC3 /* ContentView.swift in Sources */,
+				99FFB2822ADEEA2100EFDAC3 /* Raspberry_PI_ShellApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FFB28A2ADEEA2200EFDAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FFB2932ADEEA2200EFDAC3 /* Raspberry_PI_ShellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FFB2942ADEEA2200EFDAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FFB29D2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITests.swift in Sources */,
+				99FFB29F2ADEEA2200EFDAC3 /* Raspberry_PI_ShellUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99FFB2902ADEEA2200EFDAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99FFB27D2ADEEA2100EFDAC3 /* Raspberry PI Shell */;
+			targetProxy = 99FFB28F2ADEEA2200EFDAC3 /* PBXContainerItemProxy */;
+		};
+		99FFB29A2ADEEA2200EFDAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99FFB27D2ADEEA2100EFDAC3 /* Raspberry PI Shell */;
+			targetProxy = 99FFB2992ADEEA2200EFDAC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99FFB2A02ADEEA2200EFDAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99FFB2A12ADEEA2200EFDAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99FFB2A32ADEEA2200EFDAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Raspberry PI Shell/Preview Content\"";
+				DEVELOPMENT_TEAM = 9N26CTY3KW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.boringx.Raspberry-PI-Shell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99FFB2A42ADEEA2200EFDAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Raspberry PI Shell/Preview Content\"";
+				DEVELOPMENT_TEAM = 9N26CTY3KW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.boringx.Raspberry-PI-Shell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99FFB2A62ADEEA2200EFDAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N26CTY3KW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.boringx.Raspberry-PI-ShellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raspberry PI Shell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Raspberry PI Shell";
+			};
+			name = Debug;
+		};
+		99FFB2A72ADEEA2200EFDAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N26CTY3KW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.boringx.Raspberry-PI-ShellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raspberry PI Shell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Raspberry PI Shell";
+			};
+			name = Release;
+		};
+		99FFB2A92ADEEA2200EFDAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N26CTY3KW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.boringx.Raspberry-PI-ShellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Raspberry PI Shell";
+			};
+			name = Debug;
+		};
+		99FFB2AA2ADEEA2200EFDAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N26CTY3KW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.boringx.Raspberry-PI-ShellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Raspberry PI Shell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99FFB2792ADEEA2100EFDAC3 /* Build configuration list for PBXProject "Raspberry PI Shell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FFB2A02ADEEA2200EFDAC3 /* Debug */,
+				99FFB2A12ADEEA2200EFDAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FFB2A22ADEEA2200EFDAC3 /* Build configuration list for PBXNativeTarget "Raspberry PI Shell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FFB2A32ADEEA2200EFDAC3 /* Debug */,
+				99FFB2A42ADEEA2200EFDAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FFB2A52ADEEA2200EFDAC3 /* Build configuration list for PBXNativeTarget "Raspberry PI ShellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FFB2A62ADEEA2200EFDAC3 /* Debug */,
+				99FFB2A72ADEEA2200EFDAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99FFB2A82ADEEA2200EFDAC3 /* Build configuration list for PBXNativeTarget "Raspberry PI ShellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FFB2A92ADEEA2200EFDAC3 /* Debug */,
+				99FFB2AA2ADEEA2200EFDAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99FFB2762ADEEA2100EFDAC3 /* Project object */;
+}
