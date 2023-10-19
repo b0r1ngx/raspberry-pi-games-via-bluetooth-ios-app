@@ -34,6 +34,8 @@ struct Game: View {
     var body: some View {
         HStack {
             Image(image)
+                .renderingMode(.template)
+                .foregroundColor(Color("Image"))
             VStack(alignment: .leading) {
                 Text(title)
                     .fontWeight(.semibold)

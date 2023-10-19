@@ -7,10 +7,7 @@ struct Translation: View {
         VStack {
             Text("Translation"~)
                 .fontWeight(.bold)
-            let _ = print(translation)
-            List(translation, id: \.code) { translation in
-                
-                let _ = print(translation)
+            List(translation, id: \.sequence) { translation in
                 HStack {
                     Text(translation.code)
                         .font(.system(
@@ -21,7 +18,8 @@ struct Translation: View {
                     Text(translation.name)
                     Spacer()
                     Letters(
-                        letters: translation.sequence
+                        letters: translation
+                            .sequence
                     )
                 }
             }
